@@ -1,6 +1,6 @@
 /* eslint-disable import/extensions */
-import TheMovieDbSource from "../../data/themoviedb-source.js";
-import { createMovieItemTemplate } from "../templates/template-creator.js";
+import TheMovieDbSource from "../../data/themoviedb-source";
+import { createMovieItemTemplate } from "../templates/template-creator";
 
 const NowPlaying = {
   async render() {

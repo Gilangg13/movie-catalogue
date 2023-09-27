@@ -1,7 +1,7 @@
 /* eslint-disable import/extensions */
-import NowPlaying from "../views/pages/now-playing.js";
-import UpComing from "../views/pages/upcoming.js";
-import Detail from "../views/pages/detail.js";
+import NowPlaying from "../views/pages/now-playing";
+import UpComing from "../views/pages/upcoming";
+import Detail from "../views/pages/detail";
 
 const routes = {
   "/": NowPlaying,
